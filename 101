@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuditPulse Project Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ol, ul {
+            padding-left: 20px;
+        }
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .highlight {
+            background-color: #f9f9f9;
+            font-weight: bold;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .general-checklist, .detailed-checklist {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AuditPulse Project Plan</h1>
+        <p>The following outlines the process for developing the AuditPulse AI-driven audit report analysis tool.</p>
+
+        <div class="image-container">
+            <a href="https://ibb.co/6Frcspb">
+                <img src="https://i.ibb.co/0rmpJWZ/Leonardo-Phoenix-A-futuristic-hightech-illustration-featuring-3.jpg" alt="Leonardo-Phoenix-A-futuristic-hightech-illustration-featuring-3" border="0">
+            </a>
+        </div>
+
+        <div class="general-checklist">
+            <h2>General Checklist</h2>
+            <ul>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check1">
+                        <label for="gen-check1">Define project objectives.</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check2">
+                        <label for="gen-check2">Identify requirements for chat-based interaction.</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check3">
+                        <label for="gen-check3">Research NLP technologies and machine learning algorithms.</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check4">
+                        <label for="gen-check4">Prepare training data and preprocessing.</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check5">
+                        <label for="gen-check5">Develop, train, and evaluate the model.</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check6">
+                        <label for="gen-check6">Create and test the user interface.</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check7">
+                        <label for="gen-check7">Launch and monitor the system.</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="gen-check8">
+                        <label for="gen-check8">Gather feedback and plan future enhancements.</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <h2>Process Overview</h2>
+        <ol>
+            <li class="highlight">
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step1">
+                    <label for="step1">Define the overall project objective: Enable the model to interpret and summarize unstructured audit report content.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step2">
+                    <label for="step2">Identify the specific requirements for chat-based interaction.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step3">
+                    <label for="step3">Research existing NLP technologies suitable for interpreting audit reports.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step4">
+                    <label for="step4">Explore machine learning algorithms that can be used for analysis and insights.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step5">
+                    <label for="step5">Gather a diverse set of unstructured audit reports for training purposes.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step6">
+                    <label for="step6">Clean and preprocess the collected audit reports.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step7">
+                    <label for="step7">Identify key components of the audit reports that need to be summarized.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step8">
+                    <label for="step8">Define the target output format for the summaries.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step9">
+                    <label for="step9">Set performance metrics to evaluate the model's effectiveness.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step10">
+                    <label for="step10">Choose a suitable NLP framework for implementation.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step11">
+                    <label for="step11">Develop a training plan detailing machine learning steps.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step12">
+                    <label for="step12">Train the model on the preprocessed dataset.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step13">
+                    <label for="step13">Test the model using a subset of the audit reports.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step14">
+                    <label for="step14">Evaluate the model's performance against the predefined metrics.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step15">
+                    <label for="step15">Refine the model based on evaluation results.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step16">
+                    <label for="step16">Prepare a user-friendly chat interface for real-time interaction.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step17">
+                    <label for="step17">Integrate the model with the chat interface.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step18">
+                    <label for="step18">Conduct user testing to gather feedback on the chat interaction.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step19">
+                    <label for="step19">Make necessary adjustments to enhance user experience.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step20">
+                    <label for="step20">Document the entire process for future reference.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step21">
+                    <label for="step21">Create a deployment plan to ensure accessibility.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step22">
+                    <label for="step22">Launch the model and the chat interface for real-time interactions.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step23">
+                    <label for="step23">Monitor the system for any issues after deployment.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step24">
+                    <label for="step24">Gather user feedback post-launch for further improvement.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step25">
+                    <label for="step25">Identify potential areas for future enhancements.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step26">
+                    <label for="step26">Plan for iterating on the model based on ongoing feedback.</label>
+                </div>
+            </li>
+            <li>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="step27">
+                    <label for="step27">Ensure all stakeholders are informed of the project status throughout the 17-day timeline.</label>
+                </div>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
